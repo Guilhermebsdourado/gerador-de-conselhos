@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    max-width: 1440px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--corFundo1);
+}
+
+.conteiner {
+    max-width: 500px;
+    background-color: var(--corFundo2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 0 60px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.conteiner .numero {
+    color: var(--principal);
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.conteiner .conselho {
+    color: var(--secundaria);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.conteiner picture {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner .imagem {
+    width: calc(100% - 60px);
+    height: 18px;
+}
+
+.conteiner .botao {
+    position: absolute;
+    bottom: -34px;
+    padding: 20px;
+    background: var(--principal);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.conteiner .botao:hover {
+    box-shadow: 0 0 20px var(--principal);
+}

@@ -1,0 +1,7 @@
+:root {
+    --principal: hsl(150, 100%, 66%);
+    --secundaria: hsl(193, 38%, 86%);
+    --corFundo1: hsl(218, 23%, 16%);
+    --corFundo2: hsl(217, 19%, 24%);
+    --corFundo3: hsl(217, 19%, 38%);
+}
