@@ -24,6 +24,7 @@ body {
     color: var(--principal);
     margin-top: 20px;
     letter-spacing: 3px;
+    font-weight: 500;
 }
 
 .conteiner .conselho {
@@ -33,6 +34,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 30px;
+    font-weight: 700;
 }
 
 .conteiner picture {
